@@ -1,0 +1,26 @@
+{
+  "canisters": {
+    "zeta_backend": {
+      "main": "src/zeta_backend/main.mo",
+      "type": "motoko"
+    },
+    "zeta_frontend": {
+      "dependencies": [
+        "zeta_backend"
+      ],
+      "source": [
+        "src/zeta_frontend/dist"
+      ],
+      "type": "assets",
+      "workspace": "zeta_frontend"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
