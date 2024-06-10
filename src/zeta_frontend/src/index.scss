@@ -1,37 +1,31 @@
-body {
-  font-family: sans-serif;
-  font-size: 1.5rem;
+
+.gris-fondo {
+  background-color: rgb(22, 22, 22);
 }
 
-img {
-  max-width: 50vw;
-  max-height: 25vw;
-  display: block;
-  margin: auto;
+.titulo-posts {
+  font-size: 50px;
+  font-family: Arial;
 }
 
-form {
-  display: flex;
-  justify-content: center;
-  gap: 0.5em;
-  flex-flow: row wrap;
-  max-width: 40vw;
-  margin: auto;
-  align-items: baseline;
+.subtitulo-posts {
+  font-size: 30px;
+  font-family: Arial;
 }
 
-button[type="submit"] {
-  padding: 5px 20px;
-  margin: 10px auto;
-  float: right;
+.custom-modal {
+  background-color: rgb(31, 31, 31);
+  color: rgb(255, 255, 255);
+  min-height: 100vh;
 }
 
-#greeting {
-  margin: 10px auto;
-  padding: 10px 60px;
-  border: 1px solid #222;
+.custom-modal2 {
+  background-color: rgb(22, 22, 22);
+  color: rgb(108, 238, 255);
+  
 }
 
-#greeting:empty {
-  display: none;
+.custom-modal3 {
+  background-color: rgb(22, 22, 22);
+  
 }
